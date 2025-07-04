@@ -1,6 +1,6 @@
 Note :::
 
-I use Latex and for writing i use Texmaker. You should Peek on code for better understand.
+I use Latex and for Edit i use Texmaker. You should Peek on code for better understand.
 
 Don't Just copy and paste use you brain for gain this.
 
