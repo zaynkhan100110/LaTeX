@@ -1,0 +1,95 @@
+
+\documentclass[11pt]{article}
+\usepackage{amsmath, amsfonts, amssymb}
+\pagestyle{empty}
+
+
+\begin{document}
+
+\begin{center}
+\Large \LaTeX\ For Beginner
+
+\small BY
+
+\Large ZAYN KHAN
+
+\large ( Align )
+\end{center}
+
+
+Let's find some align
+\begin{align}
+(a+b)^2=(a+b)(a+b)\\
+(a-b)_2=(a-b)(a-b)
+\end{align}
+Ok this can be seem to be same with the math mode. But this is not let's
+
+ break down
+
+( $\backslash$begin\{align\} 
+
+(a+b)\^\ 2=(a+b)(a+b) double $\backslash$
+
+$\backslash$end\{align\}
+
+see now we don't need to double\$\ or goto math mode and automatically
+
+ get
+line numbers. This can help you to locate lines or specify lines.
+
+\begin{align*}
+(a+b)^2=(a+b)(a+b)\\
+(a-b)_2=(a-b)(a-b)
+\end{align*}
+
+In cases if you don't want to show your line numbers then you can do
+
+ this
+
+in the begin and end ( $\backslash$begin\{align\} and $\backslash$end\{align\}
+
+after word align just add * ( asterisk ) this will forbidden line number )
+
+\begin{align*}
+&=100\div2+[20+10-\{5+9-(2\times2)+5\}+10]\times2
+\end{align*}
+
+In cases if you need or want  ( equals) from beginning then do this
+
+( $\backslash$begin\{align\}
+
+\& =100 $\backslash$div2+[20+10-$\backslash$\{5+9-(2 $\backslash$times2)+$\backslash$\}+10]
+
+$\backslash$times2 
+
+$\backslash$end \{align\} )
+
+you cannot normaly add equal sign = in align so \& helps you to get that
+
+\pagebreak
+
+Time for mess :::
+
+\begin{align*}
+&=100\div2+[20+10-\{5+9-(2\times2)+5\}+10]\times2 \\
+&=100\div2+[20+10-\{5+9-4+5\}+10]\times2 \\
+&=100\div2+[20+10-\{5+5+5\}+10]\times2 \\
+&=100\div2+[20+10-15+10]\times2 \\
+&=100\div2+[20+-5+10]\times2 \\
+&=100\div2+[15+10]\times2 \\
+&=100\div2+25\times2 \\
+&=50+25\times2 \\
+&=50+50 \\
+&=100 \\
+\end{align*}
+The answer is 100.
+
+Find how i made this by your own.
+
+Tips ::::
+
+Remember don't give a line space or don't write anything form begin to 
+
+end .
+
+\end{document}

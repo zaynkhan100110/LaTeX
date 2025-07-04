@@ -1,0 +1,255 @@
+\documentclass[11pt]{article}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{center}
+\Large \LaTeX\ For Beginner
+
+\small BY
+
+\Large ZAYN KHAN
+
+\large ( Extra Function )
+\end{center}
+
+
+Let's Do Some Extra Function !
+
+If you want to center you letters without mathmode ( double \$\ )
+
+\begin{center}This will shows in center.\end{center} 
+
+You can do this 
+
+ ( $\backslash$begin\{center\} Your words  $\backslash$end\{center\} )
+ 
+ Or This
+ 
+ ( $\backslash$begin\{center\}
+ 
+  Your words 
+  
+   $\backslash$end\{center\} )
+
+\vspace{1cm}
+
+If you want to align right then
+
+\begin{flushright}
+This will show on right
+\end{flushright}
+
+\vspace{1cm}
+
+Or if you want to left align then
+
+\begin{flushleft}
+This will show on left
+\end{flushleft}
+
+Recipe 
+
+( $\backslash$begin\{flushright\}
+
+  Your words here
+
+  $\backslash$end\{flushright\} )
+  
+  For left just change ( flushright ) to ( flushleft )
+  
+\vspace{1cm}
+
+If you want to make Text bigger or smaller then do this like :
+
+\begin{enumerate}
+
+\item \tiny{This is called (tiny)}
+\item \scriptsize{This is called (scriptsize)}
+\item \small{This is called (small)}
+\item \normalsize{This is called (normalsize)}
+\item \large{This is called (large)}
+\item \Large{This is called (Large)}
+\item \LARGE{This is called (LARGE)}
+\item \huge{This is called (huge)}
+
+\end{enumerate}  
+  
+  
+  \vspace{1cm}  
+  
+  I use enumerate just for better explain you don't need to use
+  
+  enumerate while writing an actual document for example like :
+  
+  \huge{This is called (huge)}
+
+Recipe :
+
+There are two ways to do like this
+
+1. $\backslash$which size you want \{words\}
+
+(e.g. $\backslash$Large\{This is called(Large)\}
+
+\vspace{1cm}
+
+\normalsize Something is wrong right ? From before recipe to e.g everything is in 
+
+huge size but why ? And why not from 7.(huge) ?
+
+The answer is the 7.(huge is inside the enumerate which have begin and
+
+end point that's why that don't flow up to the next documents and
+
+before recipe (huge) we don't have any begin or close point also
+
+i am writing this question and answer using $\backslash$normalsize
+
+\vspace{1cm}
+
+Then why i show this? And is there any help to stop them from flow?
+
+The answer is i show you for save your time and yeah there is way for
+
+stop flow over the next documents. Here is it:
+
+\vspace{1cm}
+
+{\large This is called (large)}
+
+\vspace{1cm}
+
+see now this isn't flow this time. Here is the recipe:
+
+\{$\backslash$large your words\}  . This is just about \{\} and knowledge.
+
+Remember : between $\backslash$and large there is no space but after 
+
+$\backslash$large there need a space like \{$\backslash$large your words\}
+
+\vspace{1cm}
+
+{\large 2.}
+
+So here is the way no. 2
+
+\begin{tiny}
+This is called tiny
+\end{tiny}
+
+\begin{scriptsize}
+This is called scriptsize
+\end{scriptsize}
+
+\begin{small}
+This is called small
+\end{small}
+
+\begin{normalsize}
+This is called normal size
+\end{normalsize}
+
+\begin{large}
+This is called large
+\end{large}
+
+\begin{Large}
+This is called large
+\end{Large}
+
+\begin{LARGE}
+This is called LARGE
+\end{LARGE}
+
+\begin{huge}
+This is called huge
+\end{huge}
+
+Recipe :
+
+$\backslash$begin\{your size\}
+
+your words
+
+$\backslash$end\{your size\}
+
+(e.g.)
+
+$\backslash$begin\{large\}
+
+your words
+
+$\backslash$end\{large\}
+
+\vspace{1cm}
+
+End of the day we found 3 ways to do size filtering :
+
+1. enumerate
+
+2. $\backslash$size
+
+3. using begin $\backslash$size 
+
+Remember : enumerate gives you next line automatically but if you using
+
+$\backslash$size or begin $\backslash$size they don't give you you need to
+
+do that by your own.
+
+\vspace{1cm}
+
+enumerate is good for line up while you are learning this can help you
+
+to learn two things in once. You can also use itemize or custom.
+
+\vspace{1cm}
+
+$\backslash$size can help you for time saving when you are in hurry and
+
+this looks cool for me. But use the \{\} begin size and after words for
+
+stop flow.
+
+$\backslash$begin can help for use and located individual 
+
+and looks so rich
+also mess up code. This can take your extra time.
+
+\vspace{1cm}
+
+Ok ! Let's try them 4 :
+
+\begin{enumerate}
+\item \large{This is written in enumerate}
+\end{enumerate}
+
+\large This is written in $\backslash$large without \{\}
+
+\begin{large}
+This is written in $\backslash$begin size
+\end{large}
+
+{\large This is written in $\backslash$large with \{\} both start and end }
+
+\vspace{1cm}
+
+If you want to make big or small just one word in a sentence then 
+
+do like this :
+
+This is  {\tiny (tiny)} and {\normalsize(normalsize)} or {\huge(huge)}
+
+Recipe write in one line :
+
+This is \{$\backslash$tiny (tiny)\} and 
+
+\{$\backslash$normalsize (normalsize)\}
+
+or \{$\backslash$huge (huge)\}
+
+\vspace{1cm}
+
+\end{document}

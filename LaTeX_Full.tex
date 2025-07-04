@@ -1,0 +1,1145 @@
+
+\documentclass[11pt]{article}
+\usepackage{float}
+\usepackage{amsmath, amsfonts, amssymb}
+\usepackage{enumerate}
+\usepackage{url}
+\usepackage{hyperref}
+\pagestyle{empty}
+
+
+\begin{document}
+
+\begin{center}
+\Large \LaTeX\ For Beginner
+
+\small BY
+
+\Large ZAYN KHAN
+\end{center}
+
+ Hey ! Here i am gonna teach you some basic \TeX\ commands. Let's go.
+ 
+
+ This will be go on 2nd line for do this you need to to indented this to next line by giving a extra line space between 2 lines otherwise this will be looks like this 4 lines because tex will detect this in 1 paragraph or line remember \LaTeX\ or \TeX\ doesn't provide next line automatically
+ 
+  \vspace{1cm}
+  
+ And for give more custom space use $\backslash$vspace\{1cm\} after 1
+ 
+ line of blank space (1 c.m. for 1 c.m. of line space between lines )
+ 
+ \vspace{1cm}
+ Ok ! Let's do some math ?
+ 
+This is inline math mode mean doing math with text in a single line 
+
+${(a+b)^2=(a+b)+(a+b)}$ for this just use opening \$\ and closing \$\
+
+(dollar) sign like this with a carrot \^\ (\$\ (a+b)\^\ 2=(a+b)+(a+b) \$\ ) sym.
+ 
+ \vspace{1cm}
+ 
+ This is display math mode mean doing math with text but math will 
+ 
+ show up in a different central line i mean like this
+
+$${(a+b)^2=(a+b)+(a+b)}$$ for this just use opening \$\ and closing \$\ (dollar) sign but need to use (double)
+
+like this (double \$\ (a+b)\^\ 2=(a+b)+(a+b) double \$\ )
+
+\vspace{1cm}
+
+Here is one more but little different from before
+ $$(a-b)_2=(a-b)+(a-b)$$
+For this i change the \^\ ( carrot sym. ) to \_\ ( underscore ) and ( + ) to ( - )
+
+
+like this (double \$\ (a-b)\_\ 2=(a-b)+(a-b) double \$\ )
+
+
+ \pagebreak
+ 
+ 
+ superscript
+ $$x^2$$ $$x^16$$
+ $$x^{16}$$
+ $$x^{1332123}$$
+ 
+ subscript
+ $$x_2$$ $$x_16$$
+ $$x_{16}$$
+ $$x_{1{3{3{2{1{2{3}}}}}}}$$
+ $$x_{1{3{3{2{1}}2}3}}$$
+ $$x_{1332123}$$
+ 
+ explanation ::
+ 
+ superscript ( \^\ )::::::::::::::::
+ 
+ remember double \$\ will automatically created a extra line without
+ 
+ giving that.
+ 
+1.
+ 
+  For superscript after double \$\ sign in 1st one i use 
+ 
+ x then a carrot sym. \^\ then number (double \$\ x \^\ 2 double \$\ ) 
+ 
+2. 
+ 
+ but when use i same method in 2nd on then that is not actual what we
+ 
+ need. I mean 1 is get in superscript but 6 is not. This 2 proves that
+ 
+ double \$\ doesn't need to give line space manually cuz i put them
+ 
+ in 1 line.
+ 
+ 3.
+ 
+ And the 3rd one we do same but little customization like put 16 in \{\}
+ 
+ like this ( double \$\ x \^\ \{ 16 \} double \$\ )
+ 
+ 
+4.
+ 
+ And the 4th one is similar to 3rd one if you want put multiple 
+ 
+ numbers in superscript then just use \{\} like this method
+ 
+ ( double \$\ x \^\ \{ 1332123 \} double \$\ )
+
+\pagebreak
+ explanation ::
+
+ subscript ( \_\ )::::::::::::::::
+ 
+ 1.
+ 
+  For subscript after double \$\ sign in 1st one i use 
+ 
+ x then a underscore \_\ then number (double \$\ x \_\ 2 double \$\ ) 
+ 
+2. 
+ 
+ but when i use same method in 2nd on then that is not actual what we
+ 
+ need. I mean 1 is get in subscript but 6 is not.
+ 
+ 3.
+ 
+  And the 3rd one we do same but little customization like put 16 in \{\}
+ 
+ like this ( double \$\ x \_\ \{ 16 \} double \$\ ) 
+ 
+ 4.
+ 
+ Here a are more modifications for confusing people who gonna read your 
+ 
+ code give one \{\} for one or each number like this more give blur on eyes
+ 
+ ( double\$\ x\_\ \{1\{3\{3\{2\{1\{2\{3 \}\}\}\}\}\}\} double \$\ )
+ 
+ 5.
+ 
+ In the result of 4th and 5th can be same but for input we can make some 
+ 
+ changes like ( double \$\ x\_\ \{1\{3\{3\{2\{1\}\}2\}3\} double \$\ )
+ 
+ \vspace{2cm}
+ 
+ 6.
+ 
+ This time is normal and similar to superscript if you want put
+ 
+  multiple numbers in subscript then just use \{\} like this method
+ 
+ ( double \$\ x \_\ \{ 1332123 \} double \$\ )
+ 
+ \vspace{2cm}
+ 
+  explanation ::
+
+ Remember ( \^\  \_\ )::::::::::::::::
+ 
+ I use () before \$\ and after \$\ just for make this more readable but don't
+ 
+ use () everywhere in \TeX\ file and also avoid all space cuz there are no
+ 
+any space between those numbers this space is for just good explanation.
+
+\pagebreak
+
+Time for roots ! I mean  $\sqrt{2}$ this kind of stuff
+$$\sqrt{2}$$
+For do this just use ( double \$\ $\backslash$sqrt\{2\} double \$\ )
+$$\sqrt[5]{2}$$
+For this just use ( double \$\ $\backslash$sqrt[5]\{2\} double \$\ )
+$$\sqrt{a+b^2}$$
+For do this just use ( double \$\ $\backslash$sqrt\{a+b \^\ 2\} double \$\ )
+$$\sqrt[a+b^6]{a-b_1}$$
+For this one just use ( double \$\ $\backslash$sqrt\ [a+b\^\ 6]\{a-b\_\ 1\} double \$\ )
+$$\sqrt{5+\sqrt{6}}$$
+For this just use ( double \$\ $\backslash$sqrt\{5+$\backslash$sqrt\{6\}\} double \$\ )
+
+1. 
+$$\sqrt[a+b^3]{(a+b_2)+\sqrt{(a+b)}}$$
+
+2.
+$$\sqrt[(a-b)_10]{a-b^8-\sqrt[r(c-d)^8]{(c-d)_{10}}}$$
+
+Exam Time time to test what you get :::: 
+
+Explain how i print 1 and 2. I don't give any hint but you can
+
+find how to cook. Recipe is on page 1 to 4.
+
+Tips ::::
+
+Push yourself to read and understand again.
+
+After your final push fell free to peak at \TeX\ file.
+
+But think in simple ways cuz this cannot be found with hard way.
+
+\pagebreak
+
+Let's do some fractions
+
+$$\frac{1}{2}$$
+
+Just type ( double \$\ $\backslash$frac\{1\}\{2\} double \$\ )
+
+$$\frac{10+5}{2+13}$$
+
+Type ( double \$\ $\backslash$frac\{10+5\}\{2+13\} double \$\ )
+
+$$\frac{10}{2+\frac{5}{x}}$$
+
+This ( double \$\ $\backslash$frac\{10\}\{2+$\backslash$frac \{5\}\{x\}\} double \$\ )
+
+$$\frac{x}{y}+{2}{3}$$
+
+Use ( double \$\ $\backslash$frac\{x\}\{y\}+\{2\}\{3\} double \$\ )
+
+$$\frac{A+b+C^2}{a+B+C_5}$$
+
+Here ( double \$\ $\backslash$frac\{A+b+C\^\ 2\}\{a+B+C\_\ 5\} double \$\ )
+$$\frac{\sqrt{5}}{\sqrt{6}}$$
+
+Yeah you can add root in frac just do like this  
+
+{( double \$\ $\backslash$frac\{$\backslash$sqrt\{5\}\} top
+
+             \{$\backslash$sqrt\{6\}\} double \$\ )} bottom
+ $$\frac{a+b^4\sqrt{ab_2}}{a-b_2\sqrt{ab^4}}$$
+ 
+ Do ( double \$\ frac\{a+b\^\ 4 $\backslash$sqrt\{a-b\_2\ \}\} top
+ 
+          \{a-b\_\ 2 $\backslash$sqrt\{ab\^\ 4\}\} double \$\ ) bottom
+          
+          
+\vspace{1cm}
+
+Tips ::::
+
+Frac or fraction can remember or do fraction just first 2 digits or letter.
+
+Frack or fraction doesn't character orientation means he doesn't care
+
+about small or capital letters.
+
+Do now more ground with frac or fraction.
+\pagebreak
+
+Ok ! Let's have some brackets for advance work.
+
+$$\{\frac{a+b^5}{a-b_5}\}$$
+
+This is not good enough or what we need but this can do by
+
+( double\$\ $\backslash$frac\{a+b\^\ 5\}\{a-b\_\ 5\} double \$\ $\backslash$ )
+
+$$\left\{\frac{a+b^5}{a-b_5}\right\}$$
+
+But this one is looking good or what we need so for do this
+
+( $\backslash$left\{ double\$\ $\backslash$frac\{a+b\^\ 5\} top
+
+\{a-b\_\ 5\}  $\backslash$right\} double \$\ ) bottom
+
+$$ \left\{ \frac{a+b^5}{a-b_5} + \frac{\sqrt{a-b^5}}{\sqrt{a+b_5}}  \right\}$$
+
+If you read all others before then this will be piece of cake
+
+
+( $\backslash$left\{ double\$\ $\backslash$frac\{a+b\^\ 5\} top left
+
+\{a-b\_\ 5\}+ bottom left 
+
+$\backslash$frac\{ $\backslash$sqrt\{a-b\^\ 5\}\} top right
+
+\{$\backslash$sqrt\{a+b\_\ 5\}\} $\backslash$right\}double \$\ ) bottom right
+
+$$\left\{\frac{a+\frac{5}{10}}{b-\frac{2}{4}}\right\}$$
+
+This is quite good ? Nah ! good will come after this. For this type 
+
+( double\$\ $\backslash$left\{$\backslash$frac\{a+ $\backslash$frac \{5\}\{10\}\}
+
+\{b- $\backslash$frac \{2\}\{4\}\} $\backslash$right\} double \$\ )
+
+$$\left\{\frac{a^2+\frac{5}{10}}{b_8-\frac{2}{4}}+  \frac{\sqrt{b+\frac{2}{4}_8}}
+{\sqrt{a-\frac{5}{10}^2}}  \right\}$$
+
+So this can be rude for you if you don't take previous notes. Ok ! Then
+
+( double \$\ $\backslash$left\{ $\backslash$frac\{a\^\ 2+$\backslash$frac\{5\}\{10\}\}
+
+\{b\_\ 8- $\backslash$frac\{2\}\{4\}+ 
+
+(end of first fraction.)
+
+$\backslash$frac\{$\backslash$sqrt\{b+$\backslash$frac\{2\}\{4\}\_\ 8\}\}
+
+\{$\backslash$sqrt\{a-$\backslash$frac\{5\}\{10\}\^\ 2\}\}$\backslash$right\} double\$\ )
+
+(end of last fraction.)
+
+$$\left\{\frac{a^2+\frac{5}{10}}{b_8-\frac{2}{4}}  \right\} + \left\{  \frac{\sqrt{b+\frac{2}{4}_8}}{\sqrt{a-\frac{5}{10}^2}}  \right\}$$
+
+So ! This one is almost similar to the previous one just need to add
+
+   $\backslash$right\} in (end of first fraction.) the + is between extra brackets
+   
+or middle of those two fraction. $\backslash$left\{ (start of last fraction).
+
+SO time for brainwash :::::
+
+$$100\div2+\left[ 20+10-\left\{5+9-\left(2\times2\right)+5\right\}+10\right]\times2$$
+$$100\div2+\left[ 20+10-\left\{5+9-4+5\right\}+10\right]\times2$$
+$$100\div2+\left[ 20+10-\left\{5+5+5\right\}+10\right]\times2$$
+$$100\div2+\left[ 20+10-15+10\right]\times2$$
+$$100\div2+\left[ 20+-5+10\right]\times2$$
+$$100\div2+\left[ 15+10\right]\times2$$
+$$100\div2+25\times2$$
+$$50+25\times2$$
+$$50+50$$
+$$100$$
+This need so find out by yourself use your fresh brain again think easy.
+\vspace{1cm}
+
+Tips ::::
+
+If you want to put brackets in normal way like (20)then this can good 
+
+for just single number or inline numbers but when it comes to frac , sqrt 
+
+where numbers can be part then this is not a good choice so for part 
+
+numbers or command like frac , sqrt we can use ( $\backslash$right your 
+
+brackets in begin and $\backslash$right at the end of command).
+
+\pagebreak
+
+Let's make tables !
+\vspace{1cm}
+
+\begin{tabular}{|c||c|c|c|c|c|c|}
+\hline
+$Name$ & Kabir & Amir & Jim & Afridi & Towhid \\ \hline
+$Marks$ & 34.4 & 35.7 & 33.6 & 36.3 & 34.8 \\ \hline
+
+\end{tabular}
+\vspace{1cm}
+
+For this type or do. Remember this $ | $ decide box end how many box you 
+
+want just type like this $\backslash$hline \{$|$c$|$\} $\backslash$hline for one box
+
+and \& decide words end or one box words end
+
+and $\backslash$hline decide next row and c for center row align
+
+( $\backslash$begin\{ tabular\} \{ $|$c$|$c$|$c$|$c$|$c$|$c$|$ \} $\backslash$hline 
+
+\$\ Name \$\ \& Kabir \& Amir \& Jim \& Afridi \& Towhid double $\backslash$
+
+ $\backslash$hline )
+
+
+
+\vspace{1cm}
+
+\begin{tabular}{|c||c|c|c|c|c|c|}
+\hline
+
+$Owner$ & Kabir & Amir & Jim & Afridi & Towhid \\ \hline
+$Space$ & $\frac{1}{5}$ & $\frac{1}{5}$ & $\frac{1}{5}$ & $\frac{1}{5}$ & $\frac{1}{5}$ \\ \hline
+
+\end{tabular}
+
+\vspace{1cm}
+
+
+This is same as before just changed the value to fraction value or frac
+
+Let's do something scary but easy !
+
+
+
+\vspace{1cm}
+
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+$NAME$ & $CLASS$ & $SEAT NO.$ & $MARKS$ & $RESULT$ & $RANK$ & $YEAR$ \\ \hline
+Mustofa & $XII$ &  27492 & 810 & Pass & $1^{st}$ & 2025 \\ \hline
+Ali & $XII$ &  23422 & 780 & Pass & $2^{nd}$ & 2025 \\ \hline
+Hamar & $XII$ &  27345 & 770 & Pass & $3^{rd}$ & 2025 \\ \hline
+Kazi & $XII$ &  25948 & 745 & Pass & $4^{th}$ & 2025 \\ \hline
+Faraz & $XII$ &  27965 & 740 & Pass & $5^{th}$ & 2025 \\ \hline
+Zakir & $XII$ &  29430 & 737 & Pass & $6^{th}$ & 2025 \\ \hline
+Maruf & $XII$ &  26403 & 722 & Pass & $7^{th}$ & 2025 \\ \hline
+Afzal & $XII$ &  28204 & 726 & Pass & $8^{th}$ & 2025 \\ \hline
+Kaser & $XII$ &  29806 & 720 & Pass & $9^{th}$ & 2025 \\ \hline
+Faysal & $XII$ &  20729 & 716 & Pass & $10^{th}$ & 2025 \\ \hline
+
+
+
+\end{tabular}
+
+\vspace{1cm}
+
+ This is a normal result sheet of class 12. Find out how i do this.
+ 
+ \pagebreak
+
+\begin{tabular}{|c|l|p{5cm}|}
+\hline
+NAME & MAIL & YOUR FEEDBACK \\ \hline
+
+Hamar & $hamar9@mail.com$ & If you want to make like this then follow this \\ \hline
+Zakir & $zakir8@mail.org$ & $\backslash$begin\{tabular\}\{c$|$l$|$p\{5cm\} $\backslash$hline \\ \hline
+Faysal & $faysal7@mail.io$ & this is same as before but just for i need to enter big data in one frame so that's why i choose section {p} in the begin after begin tabular p refers to paragraph and {5cm} refers to a row size in width but how much you write this will increasing his size in height and before p we also have new value called {l} l refers to left align remember c refers to center and all things are same as well ohh ! one more thing if you put {r} it will refers to right \\ \hline
+\end{tabular}
+
+\vspace{1cm}
+
+Read that. That will refers all things about this.
+
+\pagebreak
+Let's find some align
+\begin{align}
+(a+b)^2=(a+b)(a+b)\\
+(a-b)_2=(a-b)(a-b)
+\end{align}
+Ok this can be seem to be same with the math mode. But this is not let's
+
+ break down
+
+( $\backslash$begin\{align\} 
+
+(a+b)\^\ 2=(a+b)(a+b) double $\backslash$ 
+
+$\backslash$end\{align\}
+
+see now we don't need to double\$\ or goto math mode and automatically
+
+ get
+line numbers. This can help you to locate lines or specify lines.
+
+\begin{align*}
+(a+b)^2=(a+b)(a+b)\\
+(a-b)_2=(a-b)(a-b)
+\end{align*}
+
+In cases if you don't want to show your line numbers then you can do
+
+ this
+
+in the begin and end ( $\backslash$begin\{align\} and $\backslash$end\{align\}
+
+after word align just add * ( asterisk ) this will forbidden line number )
+
+\begin{align*}
+&=100\div2+[20+10-\{5+9-(2\times2)+5\}+10]\times2
+\end{align*}
+
+In cases if you need or want  ( equals) from beginning then do this
+
+( $\backslash$begin\{align\}
+
+\& =100 $\backslash$div2+[20+10-$\backslash$\{5+9-(2 $\backslash$times2)+$\backslash$\}+10]
+
+$\backslash$times2 
+
+$\backslash$end \{align\} )
+
+you cannot normaly add equal sign = in align so \& helps you to get that
+
+\pagebreak
+
+Time for mess :::
+
+\begin{align*}
+&=100\div2+[20+10-\{5+9-(2\times2)+5\}+10]\times2 \\
+&=100\div2+[20+10-\{5+9-4+5\}+10]\times2 \\
+&=100\div2+[20+10-\{5+5+5\}+10]\times2 \\
+&=100\div2+[20+10-15+10]\times2 \\
+&=100\div2+[20+-5+10]\times2 \\
+&=100\div2+[15+10]\times2 \\
+&=100\div2+25\times2 \\
+&=50+25\times2 \\
+&=50+50 \\
+&=100 \\
+\end{align*}
+The answer is 100.
+
+Find how i made this by your own.
+
+Tips ::::
+
+Remember don't give a line space or don't write anything form begin to 
+
+end .
+
+\pagebreak
+
+
+
+Let's do some other kind of lines !
+
+\begin{enumerate}
+\item Dates \item Orange \item Apple
+\end{enumerate}
+
+Here how to do this.
+
+$\backslash$begin\{enumerate\}
+
+$\backslash$item Dates
+$\backslash$item Orange
+$\backslash$item Apple
+
+$\backslash$end\{enumerate\}
+
+Also like this
+
+$\backslash$begin\{enumerate\}
+
+$\backslash$item Dates
+
+$\backslash$item Orange
+
+$\backslash$item Apple
+
+$\backslash$end\{enumerate\}
+
+Let's try with bullet style !
+
+\begin{itemize}
+\item Dates \item Orange \item Apple
+\end{itemize}
+
+Here.
+
+$\backslash$begin\{itemize\}
+
+$\backslash$item Dates
+
+$\backslash$item Orange
+
+$\backslash$item Apple
+
+$\backslash$end\{itemize\}
+
+
+\begin{enumerate}[A.]
+\item Dates
+\item Orange 
+\item Apple
+\end{enumerate}
+
+For giving Letters for lines style you should do this.
+
+$\backslash$begin\{enumerate\}[A.]
+
+$\backslash$item Dates
+
+$\backslash$item Orange
+
+$\backslash$item Apple
+
+$\backslash$end\{enumerate\}
+
+You will need a package for this called \{ enumerate \}
+
+\pagebreak
+
+Till now look every words focus on Start let's do something different !
+
+\begin{enumerate}
+\item[Dates are so sweet]
+\item[Orange are good water]
+\item[Apple isn't for doctor]
+\end{enumerate}
+
+See now they focus on end now. Here's how to do it.
+
+$\backslash$begin\{enumerate\}
+
+$\backslash$item [Dates are so sweet]
+
+$\backslash$item [Orange are good water]
+
+$\backslash$item [Apple isn't for doctor]
+
+$\backslash$end\{enumerate\}
+
+something you like \{ maybe \}
+
+\begin{enumerate}
+\item Dates
+\begin{enumerate}
+\item They are so sweet
+\end{enumerate}
+\end{enumerate}
+
+Yes you can make sub list or sub sub list or more. Here how to do.
+
+$\backslash$begin\{enumerate\}
+
+$\backslash$item Dates
+
+$\backslash$begin\{enumerate\}
+
+$\backslash$item They are so sweet
+
+$\backslash$end\{enumerate\}
+
+$\backslash$end\{enumerate\}
+
+\begin{itemize}
+\item Orange
+\begin{itemize}
+\item Orange are good water
+\end{itemize}
+\end{itemize}
+
+$\backslash$begin\{itemize\}
+
+$\backslash$item Dates
+
+$\backslash$begin\{itemize\}
+
+$\backslash$item They are so sweet
+
+$\backslash$end\{itemize\}
+
+$\backslash$end\{itemize\}
+
+\pagebreak
+
+\begin{enumerate}[A.]
+\item Apple
+\begin{enumerate}
+\item Apple isn't for doctor
+\end{enumerate}
+\end{enumerate}
+
+$\backslash$begin\{enumerate\}[A.]
+
+$\backslash$item Apple
+
+$\backslash$begin\{enumerate\}
+
+$\backslash$item Apple isn't for doctor
+
+$\backslash$end\{enumerate\}
+
+$\backslash$end\{enumerate\}
+
+\vspace{1cm}
+
+Let's do some fun !
+
+\begin{enumerate}
+\item Dates
+\begin{itemize}
+\item They are so sweet
+\begin{enumerate}[A.]
+\item This will give you extra energy
+\item[This can eat on winter for get warm]
+\end{enumerate}
+\end{itemize}
+\item Orange
+\begin{itemize}
+\item Orange are good water
+\begin{enumerate}[A.]
+\item This have so much vitamin c
+\item[You can give someone who is sick]
+\end{enumerate}
+\end{itemize}
+\item Apple
+\begin{itemize}
+\item Apple isn't for doctor
+\begin{enumerate}[A.]
+\item Apple are rich fruit
+\item[Don't chop them eat by teeth]
+\end{enumerate}
+\end{itemize}
+\end{enumerate}
+
+\pagebreak
+
+\begin{enumerate}
+\item [1.] Coconut
+\begin{itemize}
+\item [1.] Coconut water is good for health
+\begin{enumerate}[A.]
+\item [1.] Coconut oil is so good
+\item [1.] [This have a solid shell]
+\end{enumerate}
+\end{itemize}
+\item [1.] Orange
+\begin{itemize}
+\item [1.] Orange are good water
+\begin{enumerate}[A.]
+\item [1.] This have so much vitamin c
+\item [1.] [You can give someone who is sick]
+\end{enumerate}
+\end{itemize}
+\item [1.] Apple
+\begin{itemize}
+\item [1.] Apple isn't for doctor
+\begin{enumerate}[A.]
+\item [1.] Apple are rich fruit
+\item [1.] [Don't chop them eat by teeth]
+\end{enumerate}
+\end{itemize}
+\end{enumerate}
+
+
+Here i just use [1.] after $\backslash$item
+
+\vspace{1cm}
+
+Tips ::::
+
+If you use custom line code then right align doesn't work.
+
+Find yourself for better understand. This can good for your brain.
+
+\pagebreak
+
+Let's Do Some Extra Function !
+
+If you want to center you letters without mathmode ( double \$\ )
+
+\begin{center}This will shows in center.\end{center} 
+
+You can do this 
+
+ ( $\backslash$begin\{center\} Your words  $\backslash$end\{center\} )
+ 
+ Or This
+ 
+ ( $\backslash$begin\{center\}
+ 
+  Your words 
+  
+   $\backslash$end\{center\} )
+
+\vspace{1cm}
+
+If you want to align right then
+
+\begin{flushright}
+This will show on right
+\end{flushright}
+
+\vspace{1cm}
+
+Or if you want to left align then
+
+\begin{flushleft}
+This will show on left
+\end{flushleft}
+
+Recipe 
+
+( $\backslash$begin\{flushright\}
+
+  Your words here
+
+  $\backslash$end\{flushright\} )
+  
+  For left just change ( flushright ) to ( flushleft )
+  
+\vspace{1cm}
+
+If you want to make Text bigger or smaller then do this like :
+
+\begin{enumerate}
+
+\item \tiny{This is called (tiny)}
+\item \scriptsize{This is called (scriptsize)}
+\item \small{This is called (small)}
+\item \normalsize{This is called (normalsize)}
+\item \large{This is called (large)}
+\item \Large{This is called (Large)}
+\item \LARGE{This is called (LARGE)}
+\item \huge{This is called (huge)}
+
+\end{enumerate}  
+  
+  
+  \vspace{1cm}  
+  
+  I use enumerate just for better explain you don't need to use
+  
+  enumerate while writing an actual document for example like :
+  
+  \huge{This is called (huge)}
+
+Recipe :
+
+There are two ways to do like this
+
+1. $\backslash$which size you want \{words\}
+
+(e.g. $\backslash$Large\{This is called(Large)\}
+
+\vspace{1cm}
+
+\normalsize Something is wrong right ? From before recipe to e.g everything is in 
+
+huge size but why ? And why not from 7.(huge) ?
+
+The answer is the 7.(huge is inside the enumerate which have begin and
+
+end point that's why that don't flow up to the next documents and
+
+before recipe (huge) we don't have any begin or close point also
+
+i am writing this question and answer using $\backslash$normalsize
+
+\vspace{1cm}
+
+Then why i show this? And is there any help to stop them from flow?
+
+The answer is i show you for save your time and yeah there is way for
+
+stop flow over the next documents. Here is it:
+
+\vspace{1cm}
+
+{\large This is called (large)}
+
+\vspace{1cm}
+
+see now this isn't flow this time. Here is the recipe:
+
+\{$\backslash$large your words\}  . This is just about \{\} and knowledge.
+
+Remember : between $\backslash$and large there is no space but after 
+
+$\backslash$large there need a space like \{$\backslash$large your words\}
+
+\pagebreak
+
+{\large 2.}
+
+So here is the way no. 2
+
+\begin{tiny}
+This is called tiny
+\end{tiny}
+
+\begin{scriptsize}
+This is called scriptsize
+\end{scriptsize}
+
+\begin{small}
+This is called small
+\end{small}
+
+\begin{normalsize}
+This is called normal size
+\end{normalsize}
+
+\begin{large}
+This is called large
+\end{large}
+
+\begin{Large}
+This is called large
+\end{Large}
+
+\begin{LARGE}
+This is called LARGE
+\end{LARGE}
+
+\begin{huge}
+This is called huge
+\end{huge}
+
+Recipe :
+
+$\backslash$begin\{your size\}
+
+your words
+
+$\backslash$end\{your size\}
+
+(e.g.)
+
+$\backslash$begin\{large\}
+
+your words
+
+$\backslash$end\{large\}
+
+\vspace{1cm}
+
+End of the day we found 3 ways to do size filtering :
+
+1. enumerate
+
+2. $\backslash$size
+
+3. using begin $\backslash$size 
+
+Remember : enumerate gives you next line automatically but if you using
+
+$\backslash$size or begin $\backslash$size they don't give you you need to
+
+do that by your own.
+
+\vspace{1cm}
+
+enumerate is good for line up while you are learning this can help you
+
+to learn two things in once. You can also use itemize or custom.
+
+\vspace{1cm}
+
+$\backslash$size can help you for time saving when you are in hurry and
+
+this looks cool for me. But use the \{\} begin size and after words for
+
+stop flow.
+
+$\backslash$begin can help for use and located individual 
+
+and looks so rich
+also mess up code. This can take your extra time.
+
+\pagebreak
+
+Ok ! Let's try them 4 :
+
+\begin{enumerate}
+\item \large{This is written in enumerate}
+\end{enumerate}
+
+\large This is written in $\backslash$large without \{\}
+
+\begin{large}
+This is written in $\backslash$begin size
+\end{large}
+
+{\large This is written in $\backslash$large with \{\} both start and end }
+
+\vspace{1cm}
+
+If you want to make big or small just one word in a sentence then 
+
+do like this :
+
+This is  {\tiny (tiny)} and {\normalsize(normalsize)} or {\huge(huge)}
+
+Recipe write in one line :
+
+This is \{$\backslash$tiny (tiny)\} and 
+
+\{$\backslash$normalsize (normalsize)\}
+
+or \{$\backslash$huge (huge)\}
+
+\vspace{1cm}
+
+\pagebreak
+
+{\Large Time for urls ::: }
+
+If you want to put url on document then do this :
+
+\vspace{1cm}
+
+This is my website  \url{https://zaynkhan100110.github.io}
+
+This is my  \href{https://zaynkhan100110.github.io}{website}
+
+\vspace{1cm}
+
+So i give here 2 type of hyper links which can redirect to the
+
+destination. So here is the recipe ::
+
+1. I give a complete url for my webpage which can take to the link
+
+Destination.
+
+2. I give a link inside of text so if some click on text this will also
+
+take to the destination place ( my webpage ).
+
+
+Here's how to do ::
+
+\vspace{1cm}
+
+1. This is my website $\backslash$url\{https://zaynkhan100110.github.io\}
+
+\vspace{1cm}
+
+which link i put inside the \{\} that will redirect if you click.
+
+\vspace{1cm}
+
+2. This is my $\backslash$href\{https://zaynkhan100110.github.io\}\{website\}
+
+\vspace{1cm}
+
+so after $\backslash$href \{\} is contain our link for destination and
+
+after link \{\} contain text what will be appear on our document
+
+this one is similar to html href.
+
+\vspace{1cm}
+
+Remember if you want to put links which contain ( \_ ) underscore
+
+or other symbol at that time you need more things to do you can
+
+ see the documentations on overleaf or some other \TeX\ place.
+
+\vspace{1cm}
+
+Note ::
+
+You will need hyperref and url package for this.
+
+\pagebreak
+
+{\large So this page contain some information about page setup/margin so 
+
+let's go ::: }
+
+\vspace{0.5cm}
+
+So as you can see i setup margin of this page 1cm from every side.
+
+I mean ( from top to bottom , right to left ). Here how i do this :::
+
+\vspace{0.5cm}
+
+Before begin document and after document class we need to load a
+
+ package with some attributes ($\backslash$usepackage[margin=1cm]\{geometry\})
+
+So that will do everything about margin i use this now cuz it's quite
+
+ simple in one words. Otherwise need more customize package load 
+ 
+ more specific like if you want to give margin different from everyside
+ 
+  like :::
+
+\vspace{0.5cm}
+
+From bottom you want 0.5cm , top 1cm , right 0.6cm , left 2cm. 
+
+You can also use in for inch.
+
+\vspace{0.5cm}
+
+Do this :::
+
+$\backslash$usepackage[top=1cm, bottom=0.5cm, right=0.6cm, left-2cm]
+\{geometry\}
+
+\vspace{0.5cm}
+
+Some paper you can load :::
+
+a0paper, a1paper, a2paper, a3paper, a4paper, a5paper, a6paper,
+
+b0paper, b1paper, b2paper, b3paper, b4paper, b5paper, b6paper,c0paper,
+
+ c1paper, c2paper, c3paper, c4paper, c5paper, c6paper,b0j, b1j,
+ 
+  b2j, b3j, b4j, b5j, b6j,ansiapaper, ansibpaper, ansicpaper,
+  
+   ansidpaper, ansiepaper,letterpaper, executivepaper, legalpaper
+
+\vspace{0.5cm}
+
+You can set you output paper to landscape with geometry command 
+
+like this :::
+
+$\backslash$usepackage\{geometry\}
+$\backslash$geometry\{a4paper, landscape, margin=2in\}
+
+\vspace{0.5cm}
+
+Remember :::
+
+\vspace{0.5cm}
+
+1. LaTeX's margins are, by default, 1.5 inches wide on 
+
+12pt documents, 1.75 inches wide on 11pt documents,
+
+and 1.875 inches wide on 10pt documents.
+ 
+ 
+2. If you want to give space between words but not line space then 
+
+just press spacebar is not enough for \LaTeX\ you need to give 
+
+$\backslash$,(comma) for one letter of space.
+
+
+
+3 .If you want to write \LaTeX\ This way then do this ( $\backslash$LaTeX$\backslash$ )
+
+ second $\backslash$ for one letter of space. Don't try this on another other 
+ 
+ words insted \TeX\ TeX and \LaTeX\ LaTeX and be sure about spelling.
+
+4. Avoid () Those are just for better explanation.
+
+5. I use $\backslash$pagestyle\{empty\} on top after document class for prevent 
+
+printing page number on every page on bottom i don't like that on
+
+ my document avoid this command if you writing a book or want
+ 
+  page number by default \LaTeX\ use page number.
+
+6. For more \TeX\ or \LaTeX\ commands, method use webpage online.
+
+\vspace{10cm}
+
+\begin{center}
+\Huge Thank you
+\end{center}
+\end{document}
